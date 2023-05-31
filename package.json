@@ -1,0 +1,19 @@
+{
+  "name": "js-iterators-and-generators",
+  "version": "1.0.0",
+  "description": "presents functionalities related to iterators",
+  "repository": "https://github.com/ArturMichalak/js-iterators-and-generators.git",
+  "author": "ArturMichalak <arturmichalak96@gmail.com>",
+  "license": "MIT",
+  "private": true,
+  "devDependencies": {
+    "ts-loader": "^9.4.3",
+    "typescript": "^5.0.4",
+    "webpack": "^5.84.1",
+    "webpack-cli": "^5.1.1"
+  },
+  "scripts": {
+    "start": "webpack-dev-server --mode development",
+    "build": "webpack --mode production"
+  }
+}

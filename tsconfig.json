@@ -1,0 +1,15 @@
+{
+    "include": [
+        "./src/**/*"
+    ],
+    "exclude": ["**/*.spec.ts"],
+    "compilerOptions": {
+        "noImplicitAny": true,
+        "outDir": "./dist/",
+        "sourceMap": true,
+        "module": "ESNext",
+        "allowSyntheticDefaultImports": true,
+        "target": "ESNext",
+        "moduleResolution": "node"
+    }
+}
